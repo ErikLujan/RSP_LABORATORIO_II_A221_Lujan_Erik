@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Clases
 {
-    internal class IJugador
+    public interface IJugador
     {
-    }
+        short Nivel { get; }
+        int PuntosDeVida { get; }
+        int Atacar(Personaje objetivo);
+        void RecibirAtaque(int puntosDeAtaque);
+    } 
 }
