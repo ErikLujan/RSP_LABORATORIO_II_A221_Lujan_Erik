@@ -1,0 +1,8 @@
+C:\Users\alumno\source\repos\RSP_LABORATORIO_II_A221_Lujan_Erik\Testing\bin\Debug\Testing.exe.config
+C:\Users\alumno\source\repos\RSP_LABORATORIO_II_A221_Lujan_Erik\Testing\bin\Debug\Testing.exe
+C:\Users\alumno\source\repos\RSP_LABORATORIO_II_A221_Lujan_Erik\Testing\bin\Debug\Testing.pdb
+C:\Users\alumno\source\repos\RSP_LABORATORIO_II_A221_Lujan_Erik\Testing\obj\Debug\Testing.csproj.AssemblyReference.cache
+C:\Users\alumno\source\repos\RSP_LABORATORIO_II_A221_Lujan_Erik\Testing\obj\Debug\Testing.csproj.SuggestedBindingRedirects.cache
+C:\Users\alumno\source\repos\RSP_LABORATORIO_II_A221_Lujan_Erik\Testing\obj\Debug\Testing.csproj.CoreCompileInputs.cache
+C:\Users\alumno\source\repos\RSP_LABORATORIO_II_A221_Lujan_Erik\Testing\obj\Debug\Testing.exe
+C:\Users\alumno\source\repos\RSP_LABORATORIO_II_A221_Lujan_Erik\Testing\obj\Debug\Testing.pdb

@@ -1,0 +1,11 @@
+C:\Users\alumno\source\repos\RSP_LABORATORIO_II_A221_Lujan_Erik\RSP_Formularios_LABO_II\bin\Debug\RSP_Formularios_LABO_II.exe.config
+C:\Users\alumno\source\repos\RSP_LABORATORIO_II_A221_Lujan_Erik\RSP_Formularios_LABO_II\bin\Debug\RSP_Formularios_LABO_II.exe
+C:\Users\alumno\source\repos\RSP_LABORATORIO_II_A221_Lujan_Erik\RSP_Formularios_LABO_II\bin\Debug\RSP_Formularios_LABO_II.pdb
+C:\Users\alumno\source\repos\RSP_LABORATORIO_II_A221_Lujan_Erik\RSP_Formularios_LABO_II\obj\Debug\RSP_Formularios_LABO_II.csproj.AssemblyReference.cache
+C:\Users\alumno\source\repos\RSP_LABORATORIO_II_A221_Lujan_Erik\RSP_Formularios_LABO_II\obj\Debug\RSP_Formularios_LABO_II.csproj.SuggestedBindingRedirects.cache
+C:\Users\alumno\source\repos\RSP_LABORATORIO_II_A221_Lujan_Erik\RSP_Formularios_LABO_II\obj\Debug\RSP_Formularios_LABO_II.FrmPrincipal.resources
+C:\Users\alumno\source\repos\RSP_LABORATORIO_II_A221_Lujan_Erik\RSP_Formularios_LABO_II\obj\Debug\RSP_Formularios_LABO_II.Properties.Resources.resources
+C:\Users\alumno\source\repos\RSP_LABORATORIO_II_A221_Lujan_Erik\RSP_Formularios_LABO_II\obj\Debug\RSP_Formularios_LABO_II.csproj.GenerateResource.cache
+C:\Users\alumno\source\repos\RSP_LABORATORIO_II_A221_Lujan_Erik\RSP_Formularios_LABO_II\obj\Debug\RSP_Formularios_LABO_II.csproj.CoreCompileInputs.cache
+C:\Users\alumno\source\repos\RSP_LABORATORIO_II_A221_Lujan_Erik\RSP_Formularios_LABO_II\obj\Debug\RSP_Formularios_LABO_II.exe
+C:\Users\alumno\source\repos\RSP_LABORATORIO_II_A221_Lujan_Erik\RSP_Formularios_LABO_II\obj\Debug\RSP_Formularios_LABO_II.pdb
