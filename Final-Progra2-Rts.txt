@@ -11,7 +11,17 @@ g. a, b y d
 h. a, c, d y e.
 i. a y d.
 j. Ninguna de las anteriores.
- 
+
+Cuáles de las siguientes afirmaciones sobre delegados en C# son correctas? = Respuesta -> h
+a. Un delegado es un tipo que puede almacenar referencias a uno o más métodos.
+b. Los delegados solo pueden almacenar métodos estáticos.
+c. Se pueden utilizar delegados para implementar eventos en C#.
+d. Un delegado solo puede hacer referencia a un único método a la vez.
+e. Los delegados pueden ser utilizados como parámetros de métodos.
+f. En C#, no es posible declarar delegados genéricos.
+g. Action<T> y Func<T> son tipos de delegados predefinidos en C#.
+h. Ninguna de las anteriores es correcta.
+
 Colecciones: -> Respuesta = i
 a. No se aconseja para trabajar con cantidades dinámicas de elementos.
 b. Hay de distintos tipos, las más óptimas son las Listas, si sus elementos son de referencia.
@@ -328,6 +338,16 @@ h. a, c, d y e.
 i. a, d y e.
 j. a y d.
 
+¿Cuáles de las siguientes afirmaciones sobre herencia en C# son correctas? -> Respuesta = g
+a. Una clase en C# puede heredar de múltiples clases base.
+b.  Una clase derivada hereda todos los miembros públicos y protegidos de su clase base.
+c.  Se puede impedir que una clase sea heredada usando la palabra clave sealed.
+d. El constructor de la clase padre siempre se ejecuta antes que el constructor de la hija.
+e. a y b.
+f. b y d.
+g. b, c y d.
+h. Ninguna de las anteriores.
+
 Interfaces: -> Respuesta = L
 a. Se implementan mediante el siguiente código: ClaseA : where(IMiInterfaz)
 b. Podremos definir métodos, propiedades y atributos, sin indicar los modificadores de visibilidad.
@@ -396,3 +416,20 @@ d. En el bloque catch no puede generarse ninguna excepción.
 e. Los bloques catch van de lo particular a lo general.
 f. Si se lanza una excepción propia, se debe utilizar el new Exception().
 g. Ninguna de las anteriores.
+
+¿Cuáles de las siguientes afirmaciones sobre el manejo de excepciones en C# son correctas? = Respuesta -> g
+a. Se pueden capturar múltiples tipos de excepciones usando varios bloques catch.
+b. El bloque finally se ejecuta siempre, haya ocurrido una excepción o no.
+c. Es obligatorio incluir un bloque finally después de un try-catch.
+d. La clase base para todas las excepciones en C# es Exception.
+e. Es posible lanzar una excepción manualmente usando la palabra clave throw.
+f. Todas las anteriores.
+g. Ninguna de las anteriores.
+
+Dada la tabla Clientes.
+(ID, Nombre, Ciudad, Edad)
+  ¿Cuál de las siguientes consultas devuelve los nombres de los clientes que viven en Mendoza? = Respuesta -> a
+a. SELECT Nombre FROM Clientes WHERE Ciudad = 'Mendoza';
+b. SELECT * FROM Clientes WHERE Ciudad = 'Mendoza';
+c. SELECT Nombre, Ciudad FROM Clientes WHERE Ciudad = 'Córdoba';
+d. SELECT Nombre FROM Clientes WHERE Edad > 30;
