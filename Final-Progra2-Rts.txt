@@ -1,0 +1,398 @@
+Cuestionario de C# (40 Preguntas)
+
+Los eventos: -> Respuesta = j
+a. Son un modo que tienen los objetos de proporcionar excepciones cuando ocurre algo en particular.
+b. Se pueden referenciar a varios métodos (con distinta firma) para que controlen a un evento en particular.
+c. El evento al ser lanzado conoce que método lo va a tratar.
+d. Se implementan mediante delegados definidos por el framework.
+e. El método manejador del evento debe estar implementado en la misma clase donde se definió el evento.
+f. Todas las anteriores.
+g. a, b y d
+h. a, c, d y e.
+i. a y d.
+j. Ninguna de las anteriores.
+ 
+Colecciones: -> Respuesta = i
+a. No se aconseja para trabajar con cantidades dinámicas de elementos.
+b. Hay de distintos tipos, las más óptimas son las Listas, si sus elementos son de referencia.
+c. Siempre son genéricas.
+d. Una colección genérica no cumple la seguridad de tipos, por lo tanto, se puede agregar a ella cualquier tipo de datos.
+e. Todas las anteriores.
+f. a y b.
+g. b y c.
+h. a, b y d.
+i. Ninguna de las anteriores.
+ 
+Indique cuáles de las siguientes afirmaciones sobre serialización son correctas: -> Respuesta = g
+a. Sólo se pueden serializar atributos y propiedades públicas, en formato XML.
+b. Los objetos que se deseen serializar en formato JSON deben tener un constructor público por defecto.
+c. Los objetos que se deseen serializar en formato XML deben tener un constructor público con parámetros.
+d. No es posible serializar en formato JSON una jerarquía de clases (clase padre, clase hija) en una colección.
+e. No es posible serializar en formato XML una gerarquía de clases (clase padre, clase hija) en una colección.
+f. Todas las anteriores
+g. Ninguna de las anteriores
+h. a, c y d.
+i. c y d.
+ 
+Operadores lógicos. Las evaluaciones se realizan por “cortocircuito”, esto implica que: -> Respuesta = g
+a. No se evaluará nunca la segunda condición.
+b. Siempre se evaluará la primera condición.
+c. Puede evaluarse la segunda condición, si la primera es verdadera.
+d. Puede evaluarse la segunda condición, si la primera es falsa.
+e. b y c.
+f. b y d.
+g. b, c y d.
+h. Ninguna de las anteriores.
+ 
+Objetos en C#: -> Respuesta = d
+a. Son creados en tiempo de ejecución y su valor está alojado en el Stack.
+b. Sólo pueden acceder a miembros no estáticos.
+c. El tiempo de vida está vinculado al ámbito en el que se declara.
+d. Tienen una creación y destrucción no determinista.
+e. Tienen una creación y destrucción determinista.
+f. Todas las anteriores.
+g. Ninguna de las anteriores.
+ 
+Para ejecutar un comando de eliminación de datos debo acceder al método: -> Respuesta = c
+a. ExecuteReader()
+b. ExecuteScalar()
+c. ExecuteNonQuery()
+d. Todas las anterioes.
+e. a y b.
+f. a y c.
+g. b y c.
+h. Ninguna de las anteriores.
+ 
+¿Qué haría el siguiente código, asumiendo que es el único código que está en el método Main, y que el archivo “C:\test.txt” existe? -> Respuesta = d
+a. Lee el contenido del archivo caracter por caracter y lo muestra por consola.
+b. Lee el contenido del archivo por línea (es decir, hasta encontrar el caracter ‘enter’) y muestra esa línea por consola.
+c. La sintaxis es incorrecta.
+d. Lee sólo la primera línea del archivo y la muestra por consola.
+e. Arroja una excepción que no es controlada.
+f. Ninguna de las anteriores.
+ 
+Cuando se realiza un ‘test unitario’: -> Respuesta = i
+a. Se puede verificar cómo se comporta una porción del código interpretando valores de variables, excepciones lanzadas en métodos de instancia.
+b. La clase de la prueba hereda de UnitTest1.
+c. A través de métodos de instancia de la clase Assert se puede informar el resultado de cada prueba.
+d. Cada método llevará la etiqueta [WebMethod].
+e. Todas las anteriores.
+f. a, b y d.
+g. a, c y d.
+h. a y d.
+i. Ninguna de las anteriores.
+ 
+Constructores: -> Respuesta = g
+a. Los constructores estáticos no reciben parámetros si son públicos.
+b. Los constructores de instancia pueden recibir parámetros, a menos que sean protected.
+c. Si es de instancia, se puede utilizar this, pero no se puede acceder a miembros estáticos.
+d. Por convención, dentro de un constructor estático no se puede utilizar this.
+e. Los valores de retorno de los constructores de instancia dependen de la clase donde están definidos.
+f. Todas las anteriores.
+g. Ninguna de las anteriores.
+ 
+¿Cómo configuro la propiedad CommandText (de un SqlCommand) para obtener todos los registros (y campos) de la tabla paises (de la base utnfra), cuyo campo ID sea mayor a 25? -> Respuesta = f
+a. SELECT ALL FROM paises WHERE id > 25
+b. SELECT * FROM utnfra WHERE id > 25
+c. SELECT * paises WHERE id > 25
+d. SELECT utnfra.dbo.paises WHERE id > 25
+e. SELECT FROM paises WHERE id > 25
+f. Ninguna de las anteriores.
+g. a y b.
+h. a y c.
+i. c y e.
+ 
+Las conversiones implícitas se utilizarán cuando: -> Respuesta = e
+a. Por medio de un casteo se convierte de un tipo a otro.
+b. La conversión implica perdida de información.
+c. La conversión se realiza por intermedio de un método (por ejemplo, Parse).
+d. Todas las anteriores.
+e. Ninguna de las anteriores.
+ 
+Al ejecutar el siguiente código dentro de un formulario: -> Respuesta = g
+a. Se lanzará un nuevo hilo, totalmente independiente del actual.
+b. Si se canceló el Cancellation Token antes que la tarea comience a ejecutarse, la propiedad IsCanceled retornará true
+c. Se ejecutará el método MiMetodo hasta que se cancele el hilo por código.
+d. Se podrá cancelar el hilo a través del método Cancellation Token.
+e. Todas de las anteriores.
+f. Ninguna las anteriores.
+g. a y b.
+h. a, b, c.
+i. a, b, d.
+ 
+Si se desea sobrescribir un método: -> Respuesta = c
+a. Se debe cambiar el número y/o el tipo y/o el orden de los parámetros.
+b. El compilador de C# distingue métodos comparando las listas de parámetros.
+c. Se debe conservar el mismo nombre, parámetros y valor retorno.
+d. Todas las anteriores.
+d. Ninguna de las anteriores.
+ 
+Para agregar un nuevo ítem a un control ComboBox, se utiliza: -> Respuesta = e
+a. cboCombo.Add(“un valor”).
+b. cboCombo.Push(“un valor”)
+c. cboCombo.Add.Items(“un valor”).
+d. cboCombo.Items.Push(“un valor”).
+e. cboCombo.Items.Add(“un valor”).
+f. cboCombo.NewItems("un valor");
+g. Ninguna de las anteriores.
+ 
+¿Cómo configuro la propiedad CommandText (de un SqlCommand) para obtener los registros (y campos) de la tabla paises, cuyo campo ID esté entre 25 y 30? -> Respuesta = f
+a. SELECT ALL FROM paises WHERE id > 24 < 31
+b. SELECT * paises WHERE id >= 25 AND id <= 30
+c. SELECT * FROM ID WHERE paises.id > 24 AND paises.id <= 30
+d. SELECT FROM paises WHERE id BETWEEN 25 AND 30
+e. SELECT paises WHERE id > 25
+f. Ninguna de las anteriores.
+g. a y b.
+h. a y c.
+i. c y e.
+ 
+Se necesita vincular la función int UnMetodo(int a, int b) a alguno de estos delegados. ¿A cuál o cuales los asociaría? -> Respuesta = b
+a. Action
+b. Func
+c. Predicate
+d. Todas las anteriores.
+e. a y b.
+f. b y c.
+g. a y c.
+h. Ninguna de las anteriores es correcta.
+ 
+Se intenta sobrecargar un operador de incremento (++): -> Respuesta = f
+a. Es un operador binario.
+b. No es un operador sobrecargable.
+c. Es un operador binario y ambos parámetros deben ser del mismo tipo.
+d. El valor de retorno debe ser del tipo numérico.
+e. El primer parámetro puede ser de un tipo distinto al de la clase que lo contiene.
+f. Ninguna de las anteriores.
+ 
+Si existe una clase A y una clase B, siendo B una clase abstracta que hereda de A, y A posee un método virtual llamado Metodo(), entonces: -> Respuesta = a
+a. A puede implementar Metodo().
+b. A y B deben implementar Metodo().
+c. B no puede heredar de A.
+d. A podría no implementar Metodo().
+e. B debe implementar Metodo().
+f. Ninguna de las anteriores.
+ 
+Generics: -> Respuesta = f
+a. Se pueden utilizar en clases, métodos, atributos y propiedades, pero no al mismo tiempo.
+b. Sólo se puede tener un tipo genérico por clase.
+c. Al generar la clase, se reemplaza por un comodín nombrado cómo T.
+d. Los métodos pueden recibir tipos genéricos, pero no retornarlos.
+e. Las interfaces no pueden implementarlos.
+f. a y b.
+g. a y c.
+h. a, b y c.
+f. Ninguna de las anteriores.
+ 
+La serialización XML sirve para: -> Respuesta = c
+a. Generar archivos sólo con la extensión .bin o .dat.
+b. Guardar en formato de bytes distintos tipos de datos.
+c. Serializar clases.
+d. Serializar clases, objetos e interfaces.
+e. Todas las anteriores.
+f. Serializar atributos públicos y privados.
+g. Serializar métodos de instacia y métodos de clase.
+h. a, b, c.
+i. b, c, f, g.
+j. b, d, f, g.
+k. b, d, f.
+l. Ninguna de las anteriores.
+ 
+Clases en C#: -> Respuesta = g
+a. Deben contener atributos, propiedades, constructores y métodos.
+b. Si un método es público, se puede acceder desde cualquier lado accediéndolo como Clase.Metodo.
+c. Pueden contener atributos, propiedades, constructores y métodos, todos estáticos.
+d. Si una clase es estática, solo puede derivar clases estáticas.
+e. Su creación se da en tiempo de ejecución.
+f. Todas las anteriores.
+g. Ninguna de las anteriores.
+ 
+Cuáles de estas afirmaciones sobre los Namespaces NO son ciertas: -> Respuesta = i
+a. Son agrupaciones lógicas.
+b. Son agrupaciones físicas.
+c. Deben contener obligatoriamente al menos una clase.
+d. No pueden contener más de una clase, siendo esto un error de compilación.
+e. No deben contener más de una clase, siendo esto un error en tiempo de ejecución.
+f. a y c.
+g. b y c.
+h. a, c, e y d.
+i. b, c, d y e.
+j. Ninguna de las anteriores.
+ 
+Delegados: -> Respuesta = f
+a. La propiedad de sólo lectura Method, devuelve una lista con todos los métodos de la lista de invocación.
+b. Para agregar métodos a la lista de invocación, se utiliza el método Add, de la clase Delegate.
+c. El método GetInvocationList, retorna el último método de la lista de invocación.
+d. El método Invoke, invoca la ejecución del primer método que contiene el delegado.
+e. Todas las anteriores.
+f. Ninguna de las anteriores.
+ 
+El CTS (Common Type System) define tipos de valor y referencia. Se tiene un array de flotantes. -> Respuesta = h
+a. Pertenece al grupo de tipos de valor (y sus elementos también).
+b. Pertenece al grupo de tipos de referencia (y sus elementos también).
+c. Por defecto es inicializado en null (y sus elementos también).
+d. Por defecto es inicializado en cero.
+e. a y c.
+f. b y d.
+g. c, d y e.
+h. Ninguna de las anteriores.
+ 
+Dada la siguiente instrucción: Form1 frmAlgo = new Form1() ¿Cómo debo mostrarlo para ‘esperar’ un resultado? -> Respuesta = e
+a. frmAlgo.Show().
+b. frmAlgo.Show(this).
+c. frmAlgo.Dialog().
+d. frmAlgo.DialogResult().
+e. frmAlgo.ShowDialog().
+f. Ninguna de las anteriores.
+ 
+Para conectarse con una base de datos SQL Server: -> Respuesta = i
+a. El objeto SqlCommand se conectará a la base de datos y ejecutará distintas consultas.
+b. Podremos utilizar el SqlCommand para ejecutar consultas en distintos servidores (SQL, ORACLE, etc.), sólo cambiando la conexión.
+c. SqlConnection administra la conexión con cualquier servidor (SQL, ORACLE, etc.).
+d. Se pueden ejecutar sentencias al menos de dos formas: ExecuteNonQuery y ExecuteReader.
+e. Todas las anteriores.
+f. a y d
+g. b, c y d.
+h. c y d.
+i. Ninguna de las anteriores.
+ 
+Dentro de una interfaz pueden definirse: -> Respuesta = g
+a. Métodos de instancia y métodos estáticos.
+b. Métodos de instancia, propiedades y constructores de instancia.
+c. Propiedades de instancia, atributos de instancia y métodos de instancia.
+d. Constructores de clase.
+e. a y c.
+f. c y d.
+g. Ninguna de las anteriores.
+ 
+Formularios: -> Respuesta = h
+a. No pueden derivar de ninguna otra clase que no sea System.Windows.Forms.
+b. Son objetos estáticos que exponen propiedades, métodos y eventos.
+c. Utilizan el concepto de partial object.
+d. Su ciclo de vida consta de estas etapas: New, Load, Paint, FormClosing y FormClosed.
+e. Todas las anteriores.
+f. a, b y d.
+g. a, b y c.
+h. Ninguna de las anteriores.
+ 
+Son pilares de la P.O.O.: -> Respuesta = j
+a. El manejo de errores.
+b. La abstracción.
+c. El encapsulamiento.
+d. Los objetos.
+e. La herencia.
+f. El polimorfismo.
+g. Todas las anteriores.
+h. a, b, d, e y f.
+i. b, c, d, e y f.
+j. b, c, e y f.
+k. Ninguna de las anteriores
+ 
+Una propiedad definida como abstracta en una clase: -> Respuesta = e
+a. Puede tener una implementación en las clases derivadas.
+b. Debe tener una implementación en la clase en la que se definió y también en las clases derivadas, caso contrario arrojaría una excepción.
+c. Debe tener una implementación en la clase en la que se declaró.
+d. No puede definirse una propiedad como abstracta.
+e. Ninguna de las anteriores.
+ 
+Dada la siguiente porción de código, ¿Qué se mostraría en la consola? -> Respuesta = b
+Imagen sin título
+a. “a”
+b. “abc”
+c. “cba”
+d. “c”
+e. Sintácticamente está mal.
+f. Arroja una excepción.
+g. a y f.
+h. c y f.
+ 
+Hilos: -> Respuesta = d
+a. No es posible lanzar un hilo parametrizado.
+b. Un proceso está compuesto de ‘n’ hilos. Si algún hilo se 'muere', el proceso terminará.
+c. Si se quiere detener un hilo se utiliza el método Stop.
+d. No es posible acceder a un control (WindowsForm) desde un hilo secundario.
+e. Todas las anteriores.
+f. Ninguna de las anteriores.
+h. a, b y c.
+i. a y c.
+ 
+¿Cuáles de las siguientes afirmaciones son verdaderas al hablar de métodos de extensión? -> Respuesta = g
+a. Permiten adicionar métodos y propiedades a tipos existentes sin crear un nuevo tipo derivado, recompilar o modificar de otra manera el tipo original.
+b. Se pueden definir dentro de cualquier clase del sistema y para cualquier tipo de dato.
+c. Por definición, la clase y el método deberán ser estáticos.
+d. Su utilización será mediante un casteo de la clase extendida.
+e. Permiten derivar clases selladas.
+f. Todas las anteriores.
+g. Ninguna de las anteriores.
+h. a, c, d y e.
+i. a, d y e.
+j. a y d.
+
+Interfaces: -> Respuesta = L
+a. Se implementan mediante el siguiente código: ClaseA : where(IMiInterfaz)
+b. Podremos definir métodos, propiedades y atributos, sin indicar los modificadores de visibilidad.
+c. Los métodos se definirán con la palabra reservada abstract ya que no definen código.
+d. Debemos indicar la visibilidad de cada miembro de la interface.
+e. Si los miembros de una interface se implementan de forma implícita, no se debe colocar el modificador de visibilidad.
+f. Si quiero invocar a un miembro implementado explícitamente, debo invocarlo a través del nombre del método.
+g. Al realizar la herencia de una clase que implementa una interfaz, podré implementar los métodos directamente en la clase que la hereda, sin deber implementarlos en la clase base.
+h. a, b y f.
+i. a y e.
+j. a, e y f.
+k. a y f.
+l. Ninguna de las anteriores.
+ 
+Al utilizar manejo de excepciones: -> Respuesta = g
+a. Sólo deben utilizarse si se manipulan archivos (de texto, JSON o XML) o bases de datos.
+b. Se pueden definir ‘n’ bloques finally.
+c. Obligatoriamente debe existir al menos un bloque try – catch - finally.
+d. Ninguno, es un método que no recibe parámetros.
+d. En el bloque catch no puede generarse ninguna excepción.
+e. Los bloques catch deben ir de lo general a lo particular.
+f. Si se lanza una excepción propia, se debe utilizar el new Exception().
+g. Ninguna de las anteriores.
+ 
+¿Qué son los test unitarios? -> Respuesta = f
+a. Son pruebas basadas en la ejecución, revisión y retroalimentación de las funcionalidades previamente diseñadas para el software.
+b. Son aquellos que prueban que todos los elementos unitarios funcionan juntos correctamente probándolos en grupo.
+c. Son pruebas diseñadas para cada aplicación o proyecto, de forma que cada prueba sea independiente del resto.
+d. Son pruebas individuales que se aplican sobre la aplicación, para probar el correcto funcionamiento de la misma.
+e. Todas las anteriores.
+f. Ninguna de las anteriores.
+ 
+Sobrecargas: -> Respuesta = e
+a. La sobrecarga de métodos consiste en cambiar el número de parámetros, tipo de parámetros y el tipo de retorno.
+b. Una sobrecarga válida es cuando se cambian los nombres de los parámetros.
+c. El compilador distingue los métodos que están sobrecargados comparando la lista de parámetros y su valor de retorno.
+d. Las sobrecargas de métodos deben tener el mismo modificador de visibilidad.
+e. Los constructores de clase se pueden sobrecargar.
+g. Todas las anteriores.
+h. Ninguna de las anteriores.
+ 
+¿Qué segmentos de memoria administra .Net? -> Respuesta = g
+a. Estática y dinámica.
+b. Garbage collector.
+c. Diseño y ejecución.
+d. Stack.
+e. Heap, el segmento Stack es administrado por el programador.
+f. Heap, Stack y Queue.
+g. Ninguna de las anteriores
+ 
+Dado el siguiente código y asumiendo que en la clase Persona se definió un atributo público llamado nombre (de tipo string) y un único constructor que recibe un parámetro de tipo string. ¿Qué haría la ejecución del código? -> Respuesta = g
+Imagen sin título
+a. Elimina la persona con nombre “Tito” de la colección.
+b. Arroja un error en tiempo de ejecución.
+c. La sintaxis es incorrecta.
+d. Debería sobrecargarse el operador == en la clase Persona para poder realizar la comparación.
+e. b y c son correctas.
+f. a y b son correctas.
+g. Ninguna de las anteriores.
+ 
+Al utilizar manejo de excepciones: -> Respuesta = e
+a. Sólo deben utilizarse si se manipulan archivos (de texto, binarios o XML).
+b. Se pueden definir ‘n’ bloques finally.
+c. Obligatoriamente debe existir al menos un bloque try – catch - finally.
+d. En el bloque catch no puede generarse ninguna excepción.
+e. Los bloques catch van de lo particular a lo general.
+f. Si se lanza una excepción propia, se debe utilizar el new Exception().
+g. Ninguna de las anteriores.
